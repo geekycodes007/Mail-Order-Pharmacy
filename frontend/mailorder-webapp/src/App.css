@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* body{
+    background-color: #282c34;
+} */
+.card{
+  background-color: #d1d5db;
+  
+}
+
+.homepage{
+  height: 80vh;
+}
+span{
+  color: #1e40af;
+}
+p{
+  text-align: center;
+}
+
+h2,h3{
+  text-align: center;
+}
+.form{
+  margin-top: 40px;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+
+label{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+.message{
+  color: green;
+}
+.form-group input:focus{
+  color: #1e40af;
+  border-color:#282c34 ;
+}
+.form-group th{
+  color: #282c34;
+}
+#display_msg:empty{
+  margin-top: 10px;
+  color: #1e40af;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+}
+.data_li{
+  display: flex;
+  flex-wrap: wrap;
+  white-space: nowrap;
+  flex: 1 33%;
+  border: 1px #1e40af solid;
+  padding: 5px;
+}
